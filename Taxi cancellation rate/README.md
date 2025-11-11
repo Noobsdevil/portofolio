@@ -2,64 +2,69 @@
 
 ---
 
-## 🚖 Taxi Cancellation Case Analysis
+## 🚖 Analisis Kasus Pembatalan Taksi
 
-A KNIME-based data analysis project exploring taxi booking and cancellation trends.
-The dataset was cleaned (missing values replaced, dates formatted) and analyzed to calculate the **daily cancellation rate**, then visualized using a **line plot**.
-Results show that cancellation rates fluctuate over time, with noticeable spikes on certain dates.
+Proyek analisis data berbasis **KNIME** yang mengeksplorasi tren pemesanan dan pembatalan taksi.
+Dataset dibersihkan (mengganti nilai yang hilang, memformat tanggal) dan dianalisis untuk menghitung **tingkat pembatalan harian**, lalu divisualisasikan menggunakan **diagram garis (Line Plot)**.
+Hasil menunjukkan bahwa tingkat pembatalan berfluktuasi dari waktu ke waktu, dengan lonjakan yang terlihat pada tanggal-tanggal tertentu.
 
 ---
 
 ### 📂 Dataset
 
 **File:** `Taxi-cancellation-case.csv`
-Contains information about taxi bookings, including:
+Berisi informasi mengenai data pemesanan taksi, termasuk:
 
-* Booking dates
-* Pickup and destination details
-* Cancellation status (`Car_Cancellation`)
-
----
-
-### 🧹 Data Cleaning
-
-Performed using **KNIME Analytics Platform**:
-
-* Removed or replaced missing values with `0` and `"Unknown"`
-* Converted the `from_date` column from string to date format (`M/d/yy`)
-* Ensured consistent data types for numerical and categorical columns
+* Tanggal pemesanan
+* Detail lokasi penjemputan dan tujuan
+* Status pembatalan (`Car_Cancellation`)
 
 ---
 
-### 📊 Analysis
+### 🧹 Pembersihan Data
 
-Goal: **Find the cancellation rate per date**
+Dilakukan menggunakan **KNIME Analytics Platform**:
 
-Steps performed:
-
-1. Grouped the data by `from_date`
-2. Calculated the average of `Car_Cancellation` to obtain the daily cancellation rate
-3. Visualized the trend using a **Line Plot**
-
----
-### 🖼️ Preview
-<img width="1262" height="252" alt="image" src="https://github.com/user-attachments/assets/0cb1a014-fa0b-41af-899e-ef3afcda3c11" />
-
-### 📈 Results & Insights
-
-* The average cancellation rate **fluctuates over time**
-* Certain dates show **noticeable spikes**, possibly due to external factors like demand surges or scheduling patterns
-* The line plot helps highlight overall patterns in taxi service reliability
-
----
-### 💾 Exported Files
-
-* `TaxiAnalysis.csv` — cleaned dataset with daily cancellation rates
-* `Taxi_Cancellation_Analysis.knwf` — KNIME workflow file
+* Menghapus atau mengganti nilai yang hilang dengan `0` dan `"Unknown"`
+* Mengonversi kolom `from_date` dari string ke format tanggal (`M/d/yy`)
+* Memastikan tipe data konsisten antara kolom numerik dan kategorikal
 
 ---
 
-### 🔧 Tools Used
+### 📊 Analisis
+
+Tujuan: **Menemukan tingkat pembatalan per tanggal**
+
+Langkah-langkah yang dilakukan:
+
+1. Mengelompokkan data berdasarkan `from_date`
+2. Menghitung rata-rata dari `Car_Cancellation` untuk mendapatkan tingkat pembatalan harian
+3. Memvisualisasikan tren menggunakan **Line Plot**
+
+---
+
+### 🖼️ Pratinjau
+
+<img width="1248" height="249" alt="image" src="https://github.com/user-attachments/assets/9cf78102-8510-4e58-a537-3a7dc720df85" />
+
+---
+
+### 📈 Hasil & Temuan
+
+* Rata-rata tingkat pembatalan **berfluktuasi dari waktu ke waktu**
+* Beberapa tanggal menunjukkan **lonjakan signifikan**, kemungkinan dipengaruhi oleh faktor eksternal seperti lonjakan permintaan atau pola jadwal tertentu
+* Grafik garis membantu menyoroti pola umum dalam keandalan layanan taksi
+
+---
+
+### 💾 Berkas yang Diekspor
+
+* `TaxiAnalysis.csv` — dataset yang telah dibersihkan dengan tingkat pembatalan harian
+* `Taxi_Cancellation_Analysis.knwf` — berkas workflow KNIME
+
+---
+
+### 🔧 Alat yang Digunakan
 
 * **KNIME Analytics Platform**
 
@@ -69,13 +74,5 @@ Steps performed:
   * GroupBy
   * Line Plot
 
----
-
-### 👤 Author
-
-**Stevin Allen James**
-Informatics Student — Universitas Kristen Petra
-
----
 
 
