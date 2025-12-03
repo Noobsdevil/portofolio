@@ -1,4 +1,4 @@
----
+<img width="1389" height="295" alt="image" src="https://github.com/user-attachments/assets/fb27552d-60a6-4447-b5ad-461ae5704d15" /><img width="1389" height="295" alt="image" src="https://github.com/user-attachments/assets/9ee513f4-011a-4ac5-ad88-92d1922d1da9" />---
 
 # **README**
 
@@ -97,3 +97,13 @@ File KNIME ini menampilkan berbagai informasi penting mengenai **penumpang Titan
 
 * **Persentase kematian setiap kategori (pria, wanita, dan anak-anak) pada setiap kelas (1st, 2nd, 3rd class).**
 <img width="1373" height="261" alt="image" src="https://github.com/user-attachments/assets/2b9befa1-a2fb-4619-b30b-26628e9b13d7" />
+* **Jumlah total kematian setiap kategori (pria, wanita, dan anak-anak) pada setiap kelas (1st, 2nd, 3rd class).**
+<img width="1389" height="295" alt="image" src="https://github.com/user-attachments/assets/9460f344-f987-4517-a8bf-ec3d5a02f6a3" />
+* **Jumlah passenger setiap kategori (pria, wanita, dan anak-anak) pada setiap kelas (1st, 2nd, 3rd class).**
+<img width="1395" height="294" alt="image" src="https://github.com/user-attachments/assets/c5cc65d9-31a7-4bdc-ae03-07a5b1260822" />
+
+---
+
+# **KESIMPULAN**
+  
+  Ditemukan bahwa passenger dengan umur muda dan perempuan memiliki kemungkinan hidup yang lebih tinggi dibanding passenger pria. Hal ini disebabkan oleh perbedaan ratio distribusi kelas, dimana ratio kelas atas dengan kelas bawah pria lebih besar karena kebanyakan dari mereka berada di kelas bawah, sedangkan passenger wanita dan anak anak memiliki ratio lebih rendah antara kelas atas dan kelas bawah. Walaupun demikian, kemungkinan hidup pria di kelas atas jauh lebih kecil dibanding wanita. Dari sini, bisa muncul asumsi bahwa pria lebih mementingkan keluarganya untuk diselamatkan terlebih dahulu.
